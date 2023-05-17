@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+
+body{
+    background-color:#0a0546;
+}
+
+.cabeçalho{
+    padding: 20px;
+}
+
+#itens-menu{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Arial';
+}
+
+#title{
+    text-transform: uppercase;
+    
+}
+
+.itens {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.itens a{
+    text-decoration: none;
+}
+
+.itens a:hover{
+    color: rgb(129, 47, 177);
+    transition: 2s;
+}
+
+.botoes{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.btn-1,
+.btn-2{
+    width: 110px;
+    border-radius: 8px;
+    background-color:rgb(71, 71, 160);
+    font-size: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    background-color: rgb(73, 27, 117);
+}
+
+.btn-2:hover{
+    background-color: rgb(73, 27, 117);
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly ;
+    
+}
+
+.informations{
+    margin-top: 10%;
+}
+
+.informations h2{
+    font-size: 35px;
+}
+
+.informations h3{
+    margin-top: 60px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.btn-3{
+    margin-top: 10%;
+    width: 180px;
+    padding: 8px;
+    background-color: crimson;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.informations-img{
+    margin-top: 7%;
+}
+
+.image-horse{
+    height: 90%;
+    opacity: 0.33;
+}
